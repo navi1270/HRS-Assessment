@@ -1,0 +1,27 @@
+To perfect this assessment I have taken help from the internet. Here is the step by step guide for this particular task:
+
+1. Setup AWS Credentials:
+
+Make sure to configure AWS credentials configured with AWS CLI configuration
+
+2. Install Dependencies:
+
+Install 'boto3' package using 'pip':
+- pip install boto3
+
+3. Configure IAM Role:
+
+Need to make sure that IAM role used by EC2 instance or Lambda function executing this script has permissions to interact with ElastiCache and S3.
+
+
+Explaination of Approach:
+
+Boto3 Usage: We utilize Boto3, the AWS SDK for Python, as it provides a convenient and Pythonic way to interact with AWS services programmatically.
+
+Modular Code: The script is modular and follows best practices such as defining a function (export_to_s3) for exporting data, which enhances reusability and maintainability.
+
+Error Handling: Basic error handling is implemented. However, in a production setting, I should have included more robust error handling and logging mechanisms to handle failures gracefully and troubleshoot issues effectively.
+
+Parameterized Inputs: The script accepts parameters such as Redis endpoint, S3 bucket, S3 key, and export format, making it flexible and adaptable to different scenarios.
+
+Data Formats: It supports exporting data in JSON or CSV format, which are common formats suitable for analytics processing.
