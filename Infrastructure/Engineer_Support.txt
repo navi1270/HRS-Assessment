@@ -1,0 +1,14 @@
+Support for Engineers:
+
+Engineers on the team can utilize this Terraform setup by following these steps:Clone the repository containing Terraform configurations.
+
+1) Customize the configurations as needed for their specific   microservices.
+
+2) Run terraform init to initialize the working directory.
+
+3) Run terraform plan to preview the changes.
+
+4) Run terraform apply to apply the changes and deploy the microservices infrastructure.
+
+If engineers encounter any issues or need assistance, they can reach out for support on navi.sharma.e@gmail.com. Additionally, detailed documentation can be provided to guide them through the process.
+
