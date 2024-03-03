@@ -1,4 +1,4 @@
-This is the same project that we discussed in the seconfd round of my interview.Embarking on a DevSecOps journey with AWS, I've successfully implemented a robust pipeline to deploy a Netflix Clone on the cloud. 
+This is the same project that we discussed in the second round of my interview at HRS. Embarking on a DevSecOps journey with AWS, I've successfully implemented a robust pipeline to deploy a Netflix Clone on the cloud. I have not uploaded dependencies of other files so that the commit remains clean and easy for the reader.
 
 Here's a step-by-step breakdown of the process:
 
