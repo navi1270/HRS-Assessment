@@ -1,0 +1,14 @@
+This approach organises the Terraform code into modular components, making it easier to manage and maintain. 
+
+Here's why I opted for this approach and its benefits:
+
+Modularity: Each component(VPC, ECS cluster, ECS service, DNS) is encapsulated within its own module, promoting reusability and reducing code duplication. This makes it easy to add new microservices or modify existing ones without impacting other parts of the infrastructure.
+
+Separation of Concerns: Each file (main.tf, variables.tf, terraform.tfvars, outputs.tf) serves a specific purpose, making the codebase easy to understand and navigate. This separation of concerns improves readability and maintainability.
+	
+Parameterisation: Input variables (variables.tf) and Terraform variables (terraform.tfvars) allow for customization of the infrastructure parameters such as AWS region, domain name, and microservice names. This makes the code adaptable to different environments and use cases.
+	
+Output Values: Output values (outputs.tf) provide a way to expose important information such as VPC ID, ECS cluster ID, and service URLs. These outputs can be consumed by other Terraform modules or external systems for further integration.
+
+Overall, this structured approach to organizing Terraform code promotes best practices, improves collaboration among team members, and facilitates the deployment of Java-based microservices on AWS in a repeatable and scalable manner.
+
